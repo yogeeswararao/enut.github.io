@@ -1,0 +1,262 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.naveen
+{
+  background-color: black;
+    width: 100%;
+    height: 35px;
+    padding-top: 6px;
+}
+.naveen a
+{
+    color:rgb(243, 243, 239);
+    font-size: 15px;
+}
+.naveen a:hover
+{
+    color: yellow;
+}
+ .menu-bar
+{
+    background-color:black ;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+.menu-bar ul
+{
+list-style: none;
+display: flex;
+}
+.menu-bar ul li
+{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu-bar ul li a
+{
+    color: aqua;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+.menu-bar ul li a:hover
+{
+    color:gold;
+}
+.dropdown-menu
+{
+    display: none;
+}
+.menu-bar ul li:hover .dropdown-menu
+{
+display: block;
+position: absolute;
+left: 0;
+top: 100%;
+background-color: black;
+}
+.menu-bar ul li:hover .dropdown-menu ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+}
+.fas
+{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdown-menu-1
+{
+    display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-1
+{
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: black;
+
+}
+.dropdown-menu-2
+{
+    display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-2
+{
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: black;
+
+}
+.dropdown-menu-3
+{
+    display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-3
+{
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: black;
+
+}
+.dropdown-menu-4
+{
+    display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-4
+{
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: black;
+
+}
+.zoom
+{
+    animation: zoom;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes zoom 
+{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(2);
+  }  
+}
+.line1
+{
+    background-color: rgb(136, 108, 108);
+    width: 45%;
+    height: 3px;
+    
+}
+.line2
+{
+    background-color: black;
+    width: 22%;
+    height: 5px;
+    margin-bottom: 30px;
+}
+.line3
+{
+    background-color: rgb(107, 98, 98);
+    width: 45%;
+    height: 2px;
+    
+}
+.line4
+{
+    background-color: black;
+    width: 15%;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.box1
+{
+    box-shadow: 3px 2px 4px 4px;
+    width: 600px;
+    height: 220px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjGAx8t5F-MhvIbvapQdrl95aNQaLaCxiENg&usqp=CAU");
+    
+    
+    background-position: center;
+    background-size: cover;
+}
+.line5
+{
+    background-color: rgb(107, 98, 98);
+    width: 45%;
+    height: 2px;
+    
+}
+.line6
+{
+    background-color: black;
+    width: 15%;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.line7
+{
+    background-color: rgb(107, 98, 98);
+    width: 80%;
+    height: 2px;
+    
+}
+.line8
+{
+    background-color: black;
+    width: 15%;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.bac
+{
+   color: white; 
+    background-color: black;
+}
+.line5
+{
+    background-color: rgb(215, 235, 104);
+    width: 50%;
+    height: 3px;
+}
+.line6
+{
+    background-color: rgb(84, 125, 238);
+    width: 20%;
+    height: 4px;
+}
+.background
+{
+    color: aliceblue;
+   background-size: cover; 
+    background-position: center;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+}
+.line9
+{
+    background-color: rgb(215, 235, 104);
+    width: 100%;
+    height: 3px;
+}
+.line10
+{
+    background-color: rgb(112, 207, 68);
+    width: 50%;
+    height: 4px;
+}
+.number h2:hover ,.number p:hover , .number h4:hover
+{
+    color: yellow;
+    font-size: 20px;
+}
